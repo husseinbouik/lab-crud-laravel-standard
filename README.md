@@ -1,5 +1,9 @@
 # lab-crud-standard
 
+## Prérequis : lab-crud-basic
+
+Avant de commencer le travail sur le lab-crud-standard, assurez-vous d'avoir préalablement accompli les étapes du lab-crud-basic. Le lab-crud-basic crée la base nécessaire pour le lab-crud-standard en fournissant une implémentation initiale des opérations CRUD pour les tâches.
+
 ## Travail à Faire
 Votre mission consiste à compléter les opérations CRUD de base dans le laboratoire Laravel en suivant le design pattern Repository. Il est également nécessaire d'implémenter la fonctionnalité de recherche AJAX, d'ajouter la pagination, d'intégrer une table pour les projets, et de coder les opérations CRUD associées aux projets et aux tâches.
 
@@ -18,7 +22,7 @@ Pour faciliter le processus de configuration et de travail sur le laboratoire, s
 1. **Clonez le Projet de Base :**
    ```bash
    git clone https://github.com/husseinbouik/lab-crud-standard.git
-    ```
+   ```
    Commencez par cloner le projet de base pour la gestion des tâches.
 
 2. **Configuration de l'Environnement :**
@@ -58,7 +62,6 @@ Pour faciliter le processus de configuration et de travail sur le laboratoire, s
    ```
    Exécutez cette commande pour démarrer votre serveur local et surveiller l'avancement de votre projet.
 
-En suivant ces étapes, vous pouvez rapidement mettre en place l'environnement de travail, assurant ainsi un flux de travail fluide et efficace pour le développement du laboratoire.
 ## References
 
 - [Laravel Documentation](https://laravel.com/docs/10.x)
