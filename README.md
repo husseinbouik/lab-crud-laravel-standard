@@ -1,68 +1,66 @@
-# lab-crud-standard
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
-## Prérequis : lab-crud-basic
+<p align="center">
+<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+</p>
 
-Avant de commencer le travail sur le lab-crud-standard, assurez-vous d'avoir préalablement accompli les étapes du lab-crud-basic. Le lab-crud-basic crée la base nécessaire pour le lab-crud-standard en fournissant une implémentation initiale des opérations CRUD pour les tâches.
+## About Laravel
 
-## Travail à Faire
-Votre mission consiste à compléter les opérations CRUD de base dans le laboratoire Laravel en suivant le design pattern Repository. Il est également nécessaire d'implémenter la fonctionnalité de recherche AJAX, d'ajouter la pagination, d'intégrer une table pour les projets, et de coder les opérations CRUD associées aux projets et aux tâches.
+Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
-## Critères de Validation
-Veuillez vous assurer que les critères suivants sont respectés :
-- Réaliser les opérations CRUD de base pour le laboratoire Laravel, incluant les tâches et les projets.
-- Mettre en œuvre la pagination pour améliorer l'expérience utilisateur.
-- Implémenter la fonctionnalité de recherche en utilisant AJAX.
-- Utiliser le design pattern Repository pour une organisation optimale du code.
-- Intégrer la possibilité de filtrer les tâches par projet, offrant ainsi une gestion efficace des projets.
+- [Simple, fast routing engine](https://laravel.com/docs/routing).
+- [Powerful dependency injection container](https://laravel.com/docs/container).
+- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
+- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
+- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
+- [Robust background job processing](https://laravel.com/docs/queues).
+- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
-## Flux de Travail 
+Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
-Pour faciliter le processus de configuration et de travail sur le laboratoire, suivez ces étapes optimisées :
+## Learning Laravel
 
-1. **Clonez le Projet de Base :**
-   ```bash
-   git clone https://github.com/husseinbouik/lab-crud-standard.git
-   ```
-   Commencez par cloner le projet de base pour la gestion des tâches.
+Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
 
-2. **Configuration de l'Environnement :**
-   ```bash
-   cd "lab-crud-standard"
-   cp .env.example .env
-   ```
-   Créez le fichier .env en utilisant le modèle fourni et ajoutez le nom de la base de données approprié.
+You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
 
-3. **Installation des Dépendances avec Composer :**
-   ```bash
-   composer install
-   ```
-   Assurez-vous que toutes les dépendances du projet sont correctement installées.
+If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
 
-4. **Génération de la Clé de l'Application :**
-   ```bash
-   php artisan key:generate
-   ```
-   Assurez-vous de générer une clé unique pour votre application Laravel.
+## Laravel Sponsors
 
-5. **Migration des Tables vers la Base de Données :**
-   ```bash
-   php artisan migrate
-   ```
-   Migrez les tables nécessaires vers la base de données.
+We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
 
-6. **Peuplement de la Base de Données avec des Données d'Exemple :**
-   ```bash
-   php artisan db:seed
-   ```
-   Facilitez les tests en ajoutant des données d'exemple à votre base de données.
+### Premium Partners
 
-7. **Lancement du Serveur Local :**
-   ```bash
-   php artisan serve
-   ```
-   Exécutez cette commande pour démarrer votre serveur local et surveiller l'avancement de votre projet.
+- **[Vehikl](https://vehikl.com/)**
+- **[Tighten Co.](https://tighten.co)**
+- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
+- **[64 Robots](https://64robots.com)**
+- **[Cubet Techno Labs](https://cubettech.com)**
+- **[Cyber-Duck](https://cyber-duck.co.uk)**
+- **[Many](https://www.many.co.uk)**
+- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
+- **[DevSquad](https://devsquad.com)**
+- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
+- **[OP.GG](https://op.gg)**
+- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
+- **[Lendio](https://lendio.com)**
 
-## References
+## Contributing
 
-- [Laravel Documentation](https://laravel.com/docs/10.x)
-- [Découverte de Laravel 10 Grafikart](https://grafikart.fr/formations/laravel)
+Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+
+## Code of Conduct
+
+In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+
+## Security Vulnerabilities
+
+If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+
+## License
+
+The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
